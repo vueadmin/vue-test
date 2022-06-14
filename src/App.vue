@@ -60,6 +60,7 @@ export default {
             type: "warning",
           }
         );
+        this.isRemove = false;
       }
       // 这个地方的 return false 并不会阻止 tabs 的切换
       // if (this.isRemove) {
